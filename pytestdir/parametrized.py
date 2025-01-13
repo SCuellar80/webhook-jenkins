@@ -15,6 +15,7 @@ def invertFunction(array:str):
     ("Hola Mundo Pruebas", "sabeurP odnuM aloH"),    # Prueba 2
     ("", ""), # Prueba 3
     #(None, "")       # Prueba 4
+    ("_5", "5_"),  # Prueba 1
 ])
 
 def testFunction(testcase, expected):
