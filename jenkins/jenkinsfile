@@ -19,6 +19,7 @@ pipeline {
                 {
                     echo 'Testing..'
                     bat 'C:\\Users\\copca\\OneDrive\\Trainings\\Ex_Files_Using_Python_for_Automation\\Challenges\\pythonProject\\.venv\\Scripts\\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2024.2.3/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --path "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\First pipeline triggered by GitHub\\webhook-test\\pytestdir\\parametrized.py"'
+                    bat 'C:\\Users\\copca\\OneDrive\\Trainings\\Ex_Files_Using_Python_for_Automation\\Challenges\\pythonProject\\.venv\\Scripts\\pytest "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\First pipeline triggered by GitHub\\pytestdir\\parametrized.py" --junitxml=TestResults.xml'
                 }
             }
             stage('Deploy') {

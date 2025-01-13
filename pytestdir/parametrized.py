@@ -22,6 +22,9 @@ def invertFunction(array:str):
 def testFunction(testcase, expected):
     assert invertFunction(testcase) == expected
 
+
+
+
 #any code is needed in main
 #if __name__ == "__main__":
 #    pass
