@@ -3,9 +3,9 @@ testing the webhook
 
 pre requisites:
 -Jenkins must be public (no running in localhost)
-  or running public URL with localtunnel
-  or running public URL with Pinggy
- 
+  could be running public URL with localtunnel (got 502 bad gateway)
+  could be running public URL with Pinggy (currently using a trial)
+
 In your Jenkins:
 1) Put the repository link: 
 example:  https://github.com/SCuellar80/webhook-test.git
