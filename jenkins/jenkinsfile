@@ -23,9 +23,11 @@ pipeline {
                     bat 'C:\\Users\\copca\\OneDrive\\Trainings\\Ex_Files_Using_Python_for_Automation\\Challenges\\pythonProject\\.venv\\Scripts\\pytest "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\First pipeline triggered by GitHub\\pytestdir\\parametrized.py" --junitxml=TestResults.xml'
                 }
             }
-            stage('Deploy') {
-                steps {
-                    echo 'Deploying....'
+            stage('Test Results') {
+                steps
+                {
+                    echo 'Uploading test results....'
+                    junit 'TestResults.xml'
                 }
             }
     }
