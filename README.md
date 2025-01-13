@@ -3,6 +3,7 @@ testing the webhook
 
 pre requisites:
 -Jenkins must be public (no running in localhost)
+  or running with localtunnel and disabled s 
 
 In your Jenkins:
 -Put the repository link: 
