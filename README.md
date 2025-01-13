@@ -1,5 +1,5 @@
 # webhook-test
-testing the webhook
+testing the webhook and jenkinsfile
 
 pre requisites:
 -Jenkins must be public (no running in localhost)
