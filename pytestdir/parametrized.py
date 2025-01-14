@@ -17,6 +17,7 @@ def invertFunction(array:str):
     (None, ""),       # Prueba 4 con error
     ("_5", "5_"),  # Prueba 5
     ("AA", "AA"),  # Prueba 6
+    ("0sO", "Os0")  # Last test without the colon
 
 ])
 
