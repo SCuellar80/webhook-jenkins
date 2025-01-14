@@ -20,9 +20,9 @@ pipeline
                 script
                 {
                 // Usar catchError para manejar fallos sin que afecten al pipeline
+                    echo 'catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE')'
                     catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE')
                     {
-                        echo 'catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE')'
                         bat 'C:\\Users\\copca\\OneDrive\\Trainings\\Ex_Files_Using_Python_for_Automation\\Challenges\\pythonProject\\.venv\\Scripts\\pytest "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\First pipeline triggered by GitHub\\pytestdir\\parametrized.py" --junitxml=TestResults.xml'
 
                     }
