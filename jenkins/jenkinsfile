@@ -4,7 +4,7 @@ pipeline
     agent any
     stages
     {
-        stage('Git clone') 
+        stage('Automatic Github clone')
         {
             steps 
             {
@@ -13,7 +13,7 @@ pipeline
         }
 
 
-        stage('Test and results')
+        stage('Automatic Test')
         {
             steps
             {
@@ -31,7 +31,7 @@ pipeline
             }
         }
 
-        stage('Results')
+        stage('Automatic Test Report')
         {
             steps
             {
