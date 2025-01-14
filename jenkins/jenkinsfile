@@ -36,15 +36,9 @@ pipeline
             steps
             {
                 echo 'Post always test results'
+                junit 'resultados_test.xml'
             }
 
-            post
-            {
-                always
-                {
-                    junit 'resultados_test.xml'
-                }
-            }
         }
 
     }
