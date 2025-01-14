@@ -13,7 +13,7 @@ pipeline
         }
 
 
-        stage('Test')
+        stage('Test and results')
         {
             steps
             {
@@ -29,10 +29,7 @@ pipeline
                 }
 
             }
-        }
 
-        stage('Test Results')
-        {
             post
             {
                 always
@@ -42,5 +39,6 @@ pipeline
                 }
             }
         }
+
     }
 }
