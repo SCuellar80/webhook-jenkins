@@ -5,8 +5,8 @@ import pytest
 # No main function is needed
 
 def invertFunction(array:str):
-    #if array == None:
-    #    return ""
+    if array == None:
+        return ""
     array = array [::-1]
     return array
 
@@ -14,7 +14,7 @@ def invertFunction(array:str):
     ("10", "01"),  # Prueba 1
     ("Hola Mundo Pruebas", "sabeurP odnuM aloH"),    # Prueba 2
     ("", ""), # Prueba 3
-    ##(None, ""),       # Prueba 4 con error
+    (None, ""),       # Prueba 4 con error
     ("_5", "5_"),  # Prueba 5
     ("AA", "AA"),  # Prueba 6
     ("0sO", "Os0")  # Last test without the colon
