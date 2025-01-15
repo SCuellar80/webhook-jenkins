@@ -8,7 +8,7 @@ pre requisites:
 
 In github: 
 1)  Webhook must point to the Jenkins public ip address and add /github-webhook/ at the end: 
-  https://JenkinsPublicURL/github-webhook/
+  https://JenkinsPublicURL/github-webhook/ 
   example: https://mysubdomain.a.pinggy.link/github-webhook/
 
 In Jenkins configuration:
