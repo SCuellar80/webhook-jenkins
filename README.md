@@ -6,7 +6,7 @@ pre requisites:
   so, create a public URL with localtunnel (got 502 bad gateway)
   or Pinggy (works fine so far)
 
-In github:
+In github: 
 1)  Webhook must point to the Jenkins public ip address and add /github-webhook/ at the end: 
   https://JenkinsPublicURL/github-webhook/
   example: https://mysubdomain.a.pinggy.link/github-webhook/
