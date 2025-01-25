@@ -3,7 +3,7 @@ How to run a Jenkins pipeline in a local computer?
 
 Any change in this Github repository will trigger a Jenkins pipeline automatically. Jenkins is running in a local computer.
 
-Since Jenkins URL must be public (no running in localhost), we need to create a public URL with localtunnel (got 502 bad gateway) or Pinggy (works fine so far)
+Since Jenkins URL must be public (no running in localhost), we need to create a public URL of your localhost:8080 with localtunnel (got 502 bad gateway) or Pinggy (works fine so far)
 
 Settings in github: 
 1)  Webhook must point to the Jenkins public ip address and add /github-webhook/ at the end: 
